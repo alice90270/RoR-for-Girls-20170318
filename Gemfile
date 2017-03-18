@@ -13,8 +13,7 @@ group :development do
   gem 'sqlite3'
 end
 group :production do
-  gem 'pg'
-  gem 'rails_12factor'
+  gem "pg"
 end
 gem 'carrierwave'
 # Use Puma as the app server
